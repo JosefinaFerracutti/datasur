@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/fondo4c.jpg);
+}
+
+.form {
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    background: rgb(56, 136, 173);
+    border-radius: 10px;
+    box-shadow: 7px 13px 37px hsl(0, 0%, 0%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form h4 {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+textarea {
+    width: 100%;
+    min-width: 100px;
+    max-width: 339px;
+    min-height: 150px;
+    max-height: 300px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+.boton {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    cursor: pointer;
+}
